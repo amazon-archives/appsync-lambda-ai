@@ -5,3 +5,7 @@ Demo of using a GraphQL resolver to hit a lambda function, interact with Amazon 
 ## License Summary
 
 This sample code is made available under a modified MIT license. See the LICENSE file.
+
+## Getting Started
+
+1. Clone the project:
