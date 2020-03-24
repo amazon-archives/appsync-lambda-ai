@@ -6,23 +6,22 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
+  "jest": {
+    "preset": "react-native"
+  },
   "dependencies": {
     "aws-amplify": "^2.2.6",
-    "babel-jest": "^25.1.0",
     "buffer": "^5.5.0",
     "jest": "^25.1.0",
-    "react": "16.3.1",
-    "react-native": "0.55.4",
+    "react": "^16.13.1",
+    "react-native": "^0.61.5",
     "react-native-elements": "^1.2.7",
     "react-native-sound": "^0.11.0",
     "react-native-vector-icons": "^6.6.0",
-    "util": "^0.10.3"
+    "util": "^0.12.2"
   },
   "devDependencies": {
-    "babel-preset-react-native": "4.0.0",
-    "react-test-renderer": "16.3.1"
-  },
-  "jest": {
-    "preset": "react-native"
+    "babel-preset-react-native": "^4.0.1",
+    "react-test-renderer": "^16.13.1"
   }
 }
